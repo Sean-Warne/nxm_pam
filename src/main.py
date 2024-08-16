@@ -1,5 +1,9 @@
+import nxmods
+
+API_KEY=""
+
 def main():
-    pass
+    nxmods.user_auth(API_KEY)
 
 if __name__ == '__main__':
     main()
